@@ -1,0 +1,38 @@
+# CMake generated Testfile for 
+# Source directory: /home/arseny/projects/test_task_postgres/quadratic_equation/test
+# Build directory: /home/arseny/projects/test_task_postgres/quadratic_equation/build/test
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(Test1 "/home/arseny/projects/test_task_postgres/quadratic_equation/build/test/tests" "test1")
+set_tests_properties(Test1 PROPERTIES  _BACKTRACE_TRIPLES "/home/arseny/projects/test_task_postgres/quadratic_equation/test/CMakeLists.txt;17;add_test;/home/arseny/projects/test_task_postgres/quadratic_equation/test/CMakeLists.txt;0;")
+add_test(Test2 "/home/arseny/projects/test_task_postgres/quadratic_equation/build/test/tests" "test2")
+set_tests_properties(Test2 PROPERTIES  _BACKTRACE_TRIPLES "/home/arseny/projects/test_task_postgres/quadratic_equation/test/CMakeLists.txt;18;add_test;/home/arseny/projects/test_task_postgres/quadratic_equation/test/CMakeLists.txt;0;")
+add_test(Test3 "/home/arseny/projects/test_task_postgres/quadratic_equation/build/test/tests" "test3")
+set_tests_properties(Test3 PROPERTIES  _BACKTRACE_TRIPLES "/home/arseny/projects/test_task_postgres/quadratic_equation/test/CMakeLists.txt;19;add_test;/home/arseny/projects/test_task_postgres/quadratic_equation/test/CMakeLists.txt;0;")
+add_test(Test4 "/home/arseny/projects/test_task_postgres/quadratic_equation/build/test/tests" "test4")
+set_tests_properties(Test4 PROPERTIES  _BACKTRACE_TRIPLES "/home/arseny/projects/test_task_postgres/quadratic_equation/test/CMakeLists.txt;20;add_test;/home/arseny/projects/test_task_postgres/quadratic_equation/test/CMakeLists.txt;0;")
+add_test(Test5 "/home/arseny/projects/test_task_postgres/quadratic_equation/build/test/tests" "test5")
+set_tests_properties(Test5 PROPERTIES  _BACKTRACE_TRIPLES "/home/arseny/projects/test_task_postgres/quadratic_equation/test/CMakeLists.txt;21;add_test;/home/arseny/projects/test_task_postgres/quadratic_equation/test/CMakeLists.txt;0;")
+add_test(Test6 "/home/arseny/projects/test_task_postgres/quadratic_equation/build/test/tests" "test6")
+set_tests_properties(Test6 PROPERTIES  _BACKTRACE_TRIPLES "/home/arseny/projects/test_task_postgres/quadratic_equation/test/CMakeLists.txt;22;add_test;/home/arseny/projects/test_task_postgres/quadratic_equation/test/CMakeLists.txt;0;")
+add_test(Test7 "/home/arseny/projects/test_task_postgres/quadratic_equation/build/test/tests" "test7")
+set_tests_properties(Test7 PROPERTIES  _BACKTRACE_TRIPLES "/home/arseny/projects/test_task_postgres/quadratic_equation/test/CMakeLists.txt;23;add_test;/home/arseny/projects/test_task_postgres/quadratic_equation/test/CMakeLists.txt;0;")
+add_test(Test8 "/home/arseny/projects/test_task_postgres/quadratic_equation/build/test/tests" "test8")
+set_tests_properties(Test8 PROPERTIES  _BACKTRACE_TRIPLES "/home/arseny/projects/test_task_postgres/quadratic_equation/test/CMakeLists.txt;24;add_test;/home/arseny/projects/test_task_postgres/quadratic_equation/test/CMakeLists.txt;0;")
+add_test(Test9 "/home/arseny/projects/test_task_postgres/quadratic_equation/build/test/tests" "test9")
+set_tests_properties(Test9 PROPERTIES  _BACKTRACE_TRIPLES "/home/arseny/projects/test_task_postgres/quadratic_equation/test/CMakeLists.txt;25;add_test;/home/arseny/projects/test_task_postgres/quadratic_equation/test/CMakeLists.txt;0;")
+add_test(Test10 "/home/arseny/projects/test_task_postgres/quadratic_equation/build/test/tests" "test10")
+set_tests_properties(Test10 PROPERTIES  _BACKTRACE_TRIPLES "/home/arseny/projects/test_task_postgres/quadratic_equation/test/CMakeLists.txt;26;add_test;/home/arseny/projects/test_task_postgres/quadratic_equation/test/CMakeLists.txt;0;")
+add_test(Test11 "/home/arseny/projects/test_task_postgres/quadratic_equation/build/test/tests" "test11")
+set_tests_properties(Test11 PROPERTIES  _BACKTRACE_TRIPLES "/home/arseny/projects/test_task_postgres/quadratic_equation/test/CMakeLists.txt;27;add_test;/home/arseny/projects/test_task_postgres/quadratic_equation/test/CMakeLists.txt;0;")
+add_test(Test12 "/home/arseny/projects/test_task_postgres/quadratic_equation/build/test/tests" "test12")
+set_tests_properties(Test12 PROPERTIES  _BACKTRACE_TRIPLES "/home/arseny/projects/test_task_postgres/quadratic_equation/test/CMakeLists.txt;28;add_test;/home/arseny/projects/test_task_postgres/quadratic_equation/test/CMakeLists.txt;0;")
+add_test(Test13 "/home/arseny/projects/test_task_postgres/quadratic_equation/build/test/tests" "test13")
+set_tests_properties(Test13 PROPERTIES  _BACKTRACE_TRIPLES "/home/arseny/projects/test_task_postgres/quadratic_equation/test/CMakeLists.txt;29;add_test;/home/arseny/projects/test_task_postgres/quadratic_equation/test/CMakeLists.txt;0;")
+add_test(Test14 "/home/arseny/projects/test_task_postgres/quadratic_equation/build/test/tests" "test14")
+set_tests_properties(Test14 PROPERTIES  _BACKTRACE_TRIPLES "/home/arseny/projects/test_task_postgres/quadratic_equation/test/CMakeLists.txt;30;add_test;/home/arseny/projects/test_task_postgres/quadratic_equation/test/CMakeLists.txt;0;")
+add_test(Test15 "/home/arseny/projects/test_task_postgres/quadratic_equation/build/test/tests" "test15")
+set_tests_properties(Test15 PROPERTIES  _BACKTRACE_TRIPLES "/home/arseny/projects/test_task_postgres/quadratic_equation/test/CMakeLists.txt;31;add_test;/home/arseny/projects/test_task_postgres/quadratic_equation/test/CMakeLists.txt;0;")
+add_test(Test16 "/home/arseny/projects/test_task_postgres/quadratic_equation/build/test/tests_rand")
+set_tests_properties(Test16 PROPERTIES  _BACKTRACE_TRIPLES "/home/arseny/projects/test_task_postgres/quadratic_equation/test/CMakeLists.txt;34;add_test;/home/arseny/projects/test_task_postgres/quadratic_equation/test/CMakeLists.txt;0;")

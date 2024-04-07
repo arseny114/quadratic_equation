@@ -1,7 +1,7 @@
 /*-------------------------------------------------------------
  *
  * This file contains the implementation of
- * the quadratic_equation function.
+ * the solve_equation function.
  *
  * The function solves a quadratic equation
  * and returns the msg_id characterizing the execution
@@ -9,7 +9,7 @@
  * the quadratic_equation.h file.
  *
  * In addition, the file contains overflow checking
- * functions (check_overflow) and a function for decrypting
+ * function (check_overflow) and a function for decrypting
  * msg_id (get_solve_equation_msg).
  *
 -------------------------------------------------------------*/
@@ -33,10 +33,10 @@ static int check_overflow(long double res);
 char *get_solve_equation_msg(int msg_id);
 
 /*
- * Implementation of the quadratic_equation function that solves
+ * Implementation of the solve_equation function that solves
  * the quadratic equation.
  *
- * If the equation has two different roots, they will be written
+ * If the equation has two different roots, then it will be written
  * in res1 and res2. If the equation has one root, then it will be
  * written to both res1 and res2.
  *

@@ -1,7 +1,7 @@
 /*-------------------------------------------------------------
  *
  * This file contains the implementation of the tests for
- * the quadratic_equation function.
+ * the solve_equation function.
  *
  * The input parameters a, b, c and the expected output data
  * are recorded in an array of structures of type test_param.

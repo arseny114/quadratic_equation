@@ -4,11 +4,11 @@ cmake_minimum_required(VERSION 2.8)
 # Project name
 project(quadratic_equation)
 
-# Compil options
+# Compiler options
 add_compile_options(-Wall -Wextra -O2 -std=c99)
 
 # Select build type
-set(CMAKE_BUILD_TYPE Debug)
+set(CMAKE_BUILD_TYPE Release)
 
 # Adding tests
 include(CTest)
@@ -16,7 +16,7 @@ include(CTest)
 # Add command make check
 add_custom_target(check COMMAND ${CMAKE_CTEST_COMMAND})
 
-# Add path to include 
+# Adding path to include 
 include_directories(${PROJECT_SOURCE_DIR}/include)
 
 # Adding directories with additional Cmake files

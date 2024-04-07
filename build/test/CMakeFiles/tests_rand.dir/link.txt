@@ -1,1 +1,0 @@
-/usr/bin/cc -g -rdynamic CMakeFiles/tests_rand.dir/rand_test.c.o -o tests_rand  ../src/libquadratic_equation_lib.a -lm 

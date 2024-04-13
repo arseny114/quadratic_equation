@@ -157,6 +157,10 @@ int solve_equation(double a, double b, double c, double *res1, double *res2) {
       /*
        * If the discriminant is less than zero,
        * the equation has no roots.
+       *
+       * In future versions, it is possible to
+       * expand the library's capabilities and calculate
+       * roots on the complex plane with a negative discriminant.
        */
     } else
       return QE_OK_NO_RES;

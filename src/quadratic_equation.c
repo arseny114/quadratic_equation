@@ -14,11 +14,11 @@
  *
 -------------------------------------------------------------*/
 
-#include <assert.h>
 #include <float.h>
 #include <math.h>
 #include <quadratic_equation.h>
 #include <stdbool.h>
+#include <stdlib.h>
 
 /*
  * The function check whether the res value
@@ -56,8 +56,8 @@ int solve_equation(double a, double b, double c, double *res1, double *res2) {
   long double _res1, _res2;
 
   /* Checking pointers for a non-NULL value. */
-  assert(res1);
-  assert(res2);
+  if ((res1 == 0) || (res2 == NULL))
+    exit(QE_ERR_NULLPTR);
 
   /*
    * The function writes the standard values to res1 and res2.
@@ -185,6 +185,9 @@ char *get_solve_equation_msg(int msg_id) {
 
   case QE_ERR_OVERFLOW:
     return "The equation is not solved. An overflow has occurred.";
+
+  case QE_ERR_NULLPTR:
+    return "The null pointers *res1 and *res2 were passed to the function.";
 
   default:
     return "Empty message.";

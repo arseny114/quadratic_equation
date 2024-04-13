@@ -32,6 +32,12 @@
 #define QE_ERR_OVERFLOW -1
 
 /*
+ * The return value if the null pointers *res1 and
+ * *res2 were passed to the function.
+ */
+#define QE_ERR_NULLPTR -2
+
+/*
  * The value that the function writes to the roots of the equation
  * according to the standard. This happens in situations where there
  * are no roots in the equation, either the roots are infinite,

@@ -15,10 +15,10 @@
  *
 -------------------------------------------------------------*/
 
-#include <assert.h>
 #include <float.h>
 #include <quadratic_equation.h>
 #include <stdio.h>
+#include <stdlib.h>
 #include <string.h>
 
 /*
@@ -218,7 +218,10 @@ int main(int argc, char *argv[]) {
   int size = sizeof(test_param_arr) / sizeof(test_param_arr[0]);
 
   /* Checking for the number of passed parameters in main. */
-  assert(argc == 2);
+  if (argc != 2) {
+    printf("[ERROR]: The wrong number of arguments was passed.\n");
+    exit(res);
+  }
 
   /*
    * Search for the desired structure by the test_id

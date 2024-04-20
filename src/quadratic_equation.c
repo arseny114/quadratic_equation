@@ -56,8 +56,8 @@ int solve_equation(double a, double b, double c, double *res1, double *res2) {
   long double _res1, _res2;
 
   /* Checking pointers for a non-NULL value. */
-  if ((res1 == 0) || (res2 == NULL))
-    exit(QE_ERR_NULLPTR);
+  if ((res1 == NULL) || (res2 == NULL))
+    return QE_ERR_NULLPTR;
 
   /*
    * The function writes the standard values to res1 and res2.

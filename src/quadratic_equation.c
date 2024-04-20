@@ -115,15 +115,15 @@ int solve_equation(double a, double b, double c, double *res1, double *res2) {
     _b = b;
     _c = c;
 
-    discriminant = _b * _b - 4 * _a * _c;
+    discriminant = _b * _b - 4.0 * _a * _c;
 
     /*
      * Solving the equation if the discriminant
      * is greater than zero.
      */
     if (discriminant > 0) {
-      _res1 = (-_b + sqrt(discriminant)) / (2 * _a);
-      _res2 = (-_b - sqrt(discriminant)) / (2 * _a);
+      _res1 = (-_b + sqrt(discriminant)) / (2.0 * _a);
+      _res2 = (-_b - sqrt(discriminant)) / (2.0 * _a);
 
       /*
        * Before writing the root to res1 and res2, an overflow
@@ -139,7 +139,7 @@ int solve_equation(double a, double b, double c, double *res1, double *res2) {
 
       /* Solving the equation if the discriminant is zero. */
     } else if (discriminant == 0) {
-      _res1 = (-_b) / (2 * _a);
+      _res1 = (-_b) / (2.0 * _a);
       _res2 = _res1;
 
       /*

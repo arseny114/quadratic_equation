@@ -14,9 +14,9 @@
  *
 -------------------------------------------------------------*/
 
+#include "quadratic_equation.h"
 #include <float.h>
 #include <math.h>
-#include <quadratic_equation.h>
 #include <stdbool.h>
 #include <stdlib.h>
 
